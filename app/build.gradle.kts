@@ -52,6 +52,8 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation("androidx.compose.ui:ui-text-google-fonts:1.6.8")
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
